@@ -1,33 +1,31 @@
-def mostra_linha():
+def tracos():
     """
     Mostra uma linha de separação.
     """
     print('-' * 50)
 
-# Exemplo de uso da função mostra_linha
-mostra_linha()
+# Exemplo de uso da função tracos
+tracos()
 
 print("Aluguel de Carros com a maior frota do Brasil | Localiza")
 
-mostra_linha()
+tracos()
 
 print("Seja Bem vindo!")
 
-# Exemplo de uso da função mostra_linha
-mostra_linha()
+# Exemplo de uso da função tracos
+tracos()
 
 nome = input("Digite seu nome: ")
 
 print(f"Olá, {nome}! Estamos felizes em tê-lo conosco.")
 
-mostra_linha()
+tracos()
 
 print("Selecione o carro que deseja alugar:")
 
 def mostra_opcoes():
-    """
-    Mostra as opções de carros disponíveis para aluguel.
-    """
+    """Mostra as opções de carros disponíveis para aluguel."""
     print("1 - BMW")
     print("2 - MUSTANG")
     print("3 - HB20")
@@ -37,7 +35,7 @@ def mostra_opcoes():
 
 mostra_opcoes()
 
-mostra_linha()
+tracos()
 
 carro_escolhido = input("Digite o número do carro escolhido: ")
 
@@ -58,5 +56,5 @@ match carro_escolhido:
     case _:
         print("Código inválido. Por favor, selecione um código do menu.")
 
-mostra_linha()
+tracos()
 

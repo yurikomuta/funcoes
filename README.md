@@ -56,6 +56,12 @@ Essas funções ajudam a organizar o código e deixam o programa mais fácil de 
 - Pratique criando suas próprias funções!
 - Experimente modificar o arquivo `locadora_de_carros.py` para adicionar novos carros ou funcionalidades.
 
+## 📸 Screenshot
+
+- **Execução do programação pelo terminal:**
+  ![Programação em Execução](doc\saida_terminal.png)
+
+
 ## 🤔 Precisa de ajuda?
 Se tiver dúvidas, pode enviar para yuri.komuta@gmail.com 
 
